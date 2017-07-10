@@ -450,7 +450,7 @@ textarea::-ms-input-placeholder
 }
 .btn-default {
     color: #fff;
-    background-color: #ff2b4a;
+    background-color: #fa7d7a;
     border-color: transparent;
     border-radius: 0;
     padding: 10px 60px;
@@ -458,7 +458,7 @@ textarea::-ms-input-placeholder
     transition:.3s ease-in-out;
 }
 .btn-default:active, .btn-default:hover  {
-    background:#002453;
+    background:#a8a8a8;
     color:#fff;
 }
 
@@ -504,7 +504,7 @@ textarea::-ms-input-placeholder
 .about-content h3{
     font-size:28px;
     font-family: 'robotobold';
-    color: #ff2b4a;
+    color: #fa7d7a;
 }
 .about-content a{
     margin-top:40px;
@@ -512,7 +512,7 @@ textarea::-ms-input-placeholder
 
 /*For Features Section*/
 .features-bg{
-    background:#10c6fc;
+    background:#fa7d7a;
     color:#fff;
     height: 270px;
     width: 175px;
@@ -533,10 +533,10 @@ textarea::-ms-input-placeholder
     color:#fff;
 }
 .features-item h6 a:hover{
-    color:#ff2b4a;
+    color:#fa7d7a;
 }
 .features-bg.design{
-    background:#10c6fc;
+    background:#fa7d7a;
     transition:.3s ease-in-out;
     -webkit-transition:.3s ease-in-out;
     -moz-transition:.3s ease-in-out;
@@ -544,10 +544,10 @@ textarea::-ms-input-placeholder
     -o-transition:.3s ease-in-out;
 }
 .features-bg.design:hover{
-    background:#2d6879;
+    background:#a8a8a8;
 }
 .features-bg.development{
-    background:#835aeb;
+    background:#fa7d7a;
     transition:.3s ease-in-out;
     -webkit-transition:.3s ease-in-out;
     -moz-transition:.3s ease-in-out;
@@ -555,10 +555,10 @@ textarea::-ms-input-placeholder
     -o-transition:.3s ease-in-out;
 }
 .features-bg.development:hover{
-    background:#6b647c;
+    background:#a8a8a8;
 }
 .features-bg.testing{
-    background:#002453;
+    background:#fa7d7a;
     transition:.3s ease-in-out;
     -webkit-transition:.3s ease-in-out;
     -moz-transition:.3s ease-in-out;
@@ -566,10 +566,10 @@ textarea::-ms-input-placeholder
     -o-transition:.3s ease-in-out;
 }
 .features-bg.testing:hover{
-    background:#64cbc0;
+    background:#a8a8a8;
 }
 .features-bg.launch{
-    background:#ff2b4a;
+    background:#fa7d7a;
     transition:.3s ease-in-out;
     -webkit-transition:.3s ease-in-out;
     -moz-transition:.3s ease-in-out;
@@ -577,13 +577,13 @@ textarea::-ms-input-placeholder
     -o-transition:.3s ease-in-out;
 }
 .features-bg.launch:hover{
-    background:#222222;
+    background:#a8a8a8;
 }
 
 /*For Experience Section*/
 
 .experience{
-    background: url(../images/city.jpg) no-repeat center top fixed;
+    background: white;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -595,12 +595,12 @@ textarea::-ms-input-placeholder
     margin-top:30px;
 }
 .experience-content{
-    background: rgba(79, 50, 68, .7);
+    background:#dddfeb;
     padding:60px 40px;
-    color:#fff;
+
 }
 .experience-content h4{
-    color:#fff;
+
     text-transform:uppercase;
     font-size:26px;
     font-family: "Raleway Webfont";
@@ -608,15 +608,15 @@ textarea::-ms-input-placeholder
     margin-bottom:50px;
 }
 .experience-content .content-details h5{
-    color:#fff;
+
     font-size:18px;
 }
 .experience-content .content-details h6{
-    color:#ecf0f2;
+
     font-size:16px;
 }
 .experience-content .content-details p{
-    color:#ecf0f2;
+
 }
 .experience-content .content-details.content-border{
     border-bottom:1px solid #dadada;

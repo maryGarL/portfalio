@@ -76,55 +76,9 @@ jQuery(document).ready(function ($) {
         $('.cd-shadow-layer').removeClass('is-visible');
         $('body,html').animate(
                 {'scrollTop': target.offset().top},
-        900
+        1000
                 );
     });
 
 
-    /*---------------------------------------------*
-     * STICKY scroll
-     ---------------------------------------------*/
-
-//    $.localScroll();
-
-
-
-    /*---------------------------------------------*
-     * Counter 
-     ---------------------------------------------*/
-
-//    $('.statistic-counter').counterUp({
-//        delay: 10,
-//        time: 2000
-//    });
-
-
-
-
-    /*---------------------------------------------*
-     * WOW
-     ---------------------------------------------*/
-
-//        var wow = new WOW({
-//            mobile: false // trigger animations on mobile devices (default is true)
-//        });
-//        wow.init();
-
-
-    /* ---------------------------------------------------------------------
-     Carousel
-     ---------------------------------------------------------------------= */
-
-//    $('.testimonials').owlCarousel({
-//        responsiveClass: true,
-//        autoplay: false,
-//        items: 1,
-//        loop: true,
-//        dots: true,
-//        autoplayHoverPause: true
-//
-//    });
-
-
-    //End
 });
