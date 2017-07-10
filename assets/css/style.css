@@ -733,7 +733,7 @@ textarea::-ms-input-placeholder
     font-size:15px;
 }
 .main-footer .social a:hover{
-    color:#ff2b4a;
+    color:#f56363;
 }
 .main-footer .social a i{
     border-right:1px solid #c3bec2;
@@ -951,7 +951,7 @@ Main components
     display: block;
     padding: 0 10%;
     height: 100%;
-    color: #ff2b4a;
+    color:#f56363;
     font-size: 2.25rem;
     font-weight: bold;
 }
