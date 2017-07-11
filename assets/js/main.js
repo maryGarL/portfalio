@@ -7,9 +7,7 @@ jQuery(document).ready(function ($) {
 		$(".loaded").fadeOut();
 		$(".preloader").delay(1000).fadeOut("slow");
 	});
-    /*---------------------------------------------*
-     * Mobile menu
-     ---------------------------------------------*/
+
     $('#navbar-collapse').find('a[href*=#]:not([href=#])').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
@@ -26,9 +24,6 @@ jQuery(document).ready(function ($) {
         }
     });
 
-    /*---------------------------------------------*
-     * Portfolio Pop Up Animation
-     ---------------------------------------------*/
 
     $('.portfolio-img').magnificPopup({
         type: 'image',
@@ -37,9 +32,6 @@ jQuery(document).ready(function ($) {
         }
     });
 
-    /*---------------------------------------------*
-     * Menu Section
-     ---------------------------------------------*/
 
     $('.cd-menu-trigger').on('click', function (event) {
         event.preventDefault();
@@ -47,7 +39,6 @@ jQuery(document).ready(function ($) {
         $('#main-nav').addClass('is-visible');
         $('.cd-shadow-layer').addClass('is-visible');
     });
-    //close menu
     $('.cd-close-menu').on('click', function (event) {
         event.preventDefault();
         $('.home-main-content').removeClass('move-out');
@@ -55,7 +46,6 @@ jQuery(document).ready(function ($) {
         $('.cd-shadow-layer').removeClass('is-visible');
     });
 
-    //clipped image - blur effect
     set_clip_property();
     $(window).on('resize', function () {
         set_clip_property();
