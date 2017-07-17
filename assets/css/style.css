@@ -1,12 +1,4 @@
 
-
-/*
-Author: XpeedStudio
-Author URI: http://themeforest.net/user/XpeedStudio/portfolio
-*/
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 html,
 body {
     background-color: #ffffff;
@@ -16,11 +8,9 @@ body {
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    
+
 }
-/*==========================================
-PRE LOADER
-==========================================*/
+
 .preloader {
     position: fixed;
     top: 0;
@@ -102,44 +92,16 @@ img {
 .foto{
   position: relative;
 }
-textarea,
-input[type="text"],
-input[type="password"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="date"],
-input[type="month"],
-input[type="time"],
-input[type="week"],
-input[type="number"],
-input[type="email"],
-input[type="url"],
-input[type="search"],
-input[type="tel"],
-input[type="color"],
-.uneditable-input {
-    outline: none;
-}
-.form-control {
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    font-size: 16px;
-    height: 45px;
-}
-.form-control:focus {
-    border-color: #fff;
-}
 
 h1,
 h2,
 h3 {
-    /*font-family: 'Lane', sans-serif;*/
     font-weight: 300;
     margin: 0;
     color:#525252;
 }
 h4,
 h5 {
-    /*font-family: 'roboto', sans-serif;*/
     font-weight: 300;
     margin: 0;
     line-height: 2rem;
@@ -166,10 +128,7 @@ h4 {
     line-height: 2.2rem;
     margin-bottom: 1.8rem;
 }
-h5 {
-    /*font-size: 1.3rem;
-    /*margin-bottom: 1rem;*/
-}
+
 h6 {
     font-size: 1rem;
     margin-bottom: .9rem;
@@ -181,30 +140,13 @@ p {
 p:last-child {
     margin-bottom:0px;
 }
-/*.home-wrap h1,*/
-.home-wrap h2,
-.home-wrap h3,
-.home-wrap h4,
-.home-wrap h5,
-.home-wrap p {
-    color: #ffffff;
-    /*font-family: 'roboto', sans-serif;*/
-}
+
 .text {
     color: #333333;
 }
-.colorstext {
-    color: #f56363;
-}
-.coloricon i {
-    color: #f56363;
-}
-.colorsbg {
-    background: #f56363;
-    color: #ffffff;
-}
 
-.lightbg {
+
+.fondo-claro {
     background-color: #dddfeb;
 }
 .transition {
@@ -217,7 +159,7 @@ p:last-child {
 /*
 Section
 */
-.sections {
+.seccion {
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
@@ -296,7 +238,7 @@ section .subtitle-half h5 {
 .no-padding {
     padding: 0 !important;
 }
-.fluid-blocks-col {
+.fluid-blocks-col {contacto-detalles
     padding: 70px 40px 0 80px;
 }
 .fluid-blocks-col-right {
@@ -438,10 +380,10 @@ textarea::-ms-input-placeholder
 
 
 /*For Our Global Section*/
-.heading-content{
+.contenido-cabecera{
     margin-bottom: 4rem;
 }
-.heading-content h3{
+.contenido-cabecera h3{
     font-size:40px;
     font-family: "Raleway Webfont";
     font-weight:700;
@@ -474,7 +416,7 @@ textarea::-ms-input-placeholder
     width: 100%;
     overflow: hidden;
 }
-.home-wrapper{
+.inicio-caja{
     margin-top:240px;
     color:#fff;
 }
@@ -510,31 +452,31 @@ textarea::-ms-input-placeholder
 }
 
 /*For Features Section*/
-.features-bg{
+.background-skills{
     background:#fa7d7a;
     color:#fff;
     height: 270px;
     width: 175px;
 	margin-bottom:20px;
 }
-.features-item{
+.skills-item{
     padding-top: 84px;
 }
-.features-item i{
+.skills-item i{
     font-size:40px;
 }
-.features-item h6{
+.skills-item h6{
     padding-top:35px;
 }
-.features-item h6 a{
+.skills-item h6 a{
     font-size: 18px;
     text-transform: uppercase;
     color:#fff;
 }
-.features-item h6 a:hover{
-    color:#fa7d7a;
+.skills-item h6 a:hover{
+    color:#fff;
 }
-.features-bg.design{
+.background-skills.design{
     background:#fa7d7a;
     transition:.3s ease-in-out;
     -webkit-transition:.3s ease-in-out;
@@ -542,46 +484,13 @@ textarea::-ms-input-placeholder
     -ms-transition:.3s ease-in-out;
     -o-transition:.3s ease-in-out;
 }
-.features-bg.design:hover{
-    background:#a8a8a8;
-}
-.features-bg.development{
-    background:#fa7d7a;
-    transition:.3s ease-in-out;
-    -webkit-transition:.3s ease-in-out;
-    -moz-transition:.3s ease-in-out;
-    -ms-transition:.3s ease-in-out;
-    -o-transition:.3s ease-in-out;
-}
-.features-bg.development:hover{
-    background:#a8a8a8;
-}
-.features-bg.testing{
-    background:#fa7d7a;
-    transition:.3s ease-in-out;
-    -webkit-transition:.3s ease-in-out;
-    -moz-transition:.3s ease-in-out;
-    -ms-transition:.3s ease-in-out;
-    -o-transition:.3s ease-in-out;
-}
-.features-bg.testing:hover{
-    background:#a8a8a8;
-}
-.features-bg.launch{
-    background:#fa7d7a;
-    transition:.3s ease-in-out;
-    -webkit-transition:.3s ease-in-out;
-    -moz-transition:.3s ease-in-out;
-    -ms-transition:.3s ease-in-out;
-    -o-transition:.3s ease-in-out;
-}
-.features-bg.launch:hover{
+.background-skills.design:hover{
     background:#a8a8a8;
 }
 
-/*For Experience Section*/
+/*For experiencia Section*/
 
-.experience{
+.experiencia{
     background: white;
     background-size: cover;
     -moz-background-size: cover;
@@ -590,15 +499,15 @@ textarea::-ms-input-placeholder
     width: 100%;
     overflow: hidden;
 }
-.experience-wrapper{
+.experiencia-cajita{
     margin-top:30px;
 }
-.experience-content{
+.experiencia-contenido{
     background:#dddfeb;
     padding:60px 40px;
 
 }
-.experience-content h4{
+.experiencia-contenido h4{
 
     text-transform:uppercase;
     font-size:26px;
@@ -606,18 +515,18 @@ textarea::-ms-input-placeholder
     font-weight:600;
     margin-bottom:50px;
 }
-.experience-content .content-details h5{
+.experiencia-contenido .contenido-detalles h5{
 
     font-size:18px;
 }
-.experience-content .content-details h6{
+.experiencia-contenido .contenido-detalles h6{
 
     font-size:16px;
 }
-.experience-content .content-details p{
+.experiencia-contenido .contenido-detalles p{
 
 }
-.experience-content .content-details.content-border{
+.experiencia-contenido .contenido-detalles.contenido-borde{
     border-bottom:1px solid #dadada;
     padding-bottom: 30px;
     margin-bottom: 30px;
@@ -671,9 +580,8 @@ textarea::-ms-input-placeholder
   color: white;
 }
 
-/*For Contact Section*/
 
-.contact{
+.contacto{
     background: url(../images/contact2.jpg) no-repeat center top fixed;
     background-size: cover;
     -moz-background-size: cover;
@@ -683,12 +591,12 @@ textarea::-ms-input-placeholder
     overflow: hidden;
 }
 
-.contact-area{
+.contacto-area{
     background: rgba(79, 50, 68, .7);
     padding:60px 40px 147px 40px;
     color:#fff;
 }
-.contact-wrapper h4{
+.contacto-caja h4{
     color:#fff;
     text-transform:uppercase;
     font-size:26px;
@@ -696,52 +604,41 @@ textarea::-ms-input-placeholder
     font-weight:600;
     margin-bottom:50px;
 }
-.form-control {
-    border: 1px solid #c3bec2;
-    font-size: 16px;
-    height: 50px;
-    background: transparent;
-    border-radius: 0;
-    margin-bottom:30px;
-}
-.contact-area form a{
-    float:right;
-    margin-top:20px;
-}
-.contact-details{
+
+.contacto-detalles{
     background: rgba(55, 38, 57, 0.64);
     padding:60px 40px;
     color:#fff;
     margin-bottom:20px;
 }
-.contact-details h4{
+.contacto-detalles h4{
     margin-bottom:25px;
 }
-.contact-details p{
+.contacto-details p{
     margin: 0 0 10px;
     color:#c3bec2;
 }
 
-/* For Footer Area */
 
-.main-footer .social{
+
+.contacto-footer .social{
     margin-bottom:10px;
 }
-.main-footer .social a{
+.contacto-footer .social a{
     color:#c3bec2;
     font-size:15px;
 }
-.main-footer .social a:hover{
+.contacto-footer .social a:hover{
     color:#ff2b4a;
 }
-.main-footer .social a i{
+.contacto-footer .social a i{
     border-right:1px solid #c3bec2;
     padding:0 10px 0 10px;
 }
-.main-footer .social a i.dribbble{
+.contacto-footer .social a i.dribbble{
     border-right:0;
 }
-.main-footer p{
+.contacto-footer p{
     color:#c3bec2;
     font-size:17px;
 }
@@ -749,39 +646,24 @@ textarea::-ms-input-placeholder
   font-size: 29px;
 }
 
-
-/* --------------------------------
-
-Modules - reusable parts of our design
-
--------------------------------- */
+/*reutilizable*/
 .cd-container {
-    /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-    width: 90%;
     max-width: 768px;
     margin: 0 auto;
 }
 .cd-container::after {
-    /* clearfix */
     content: '';
     display: table;
     clear: both;
 }
 
-/* --------------------------------
-
-Main components
-
--------------------------------- */
 .home-main-content {
     position: relative;
     height: 100%;
     overflow: hidden;
     background-color: #3a393f;
-    /* slightly visible only when we resize this element */
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
     z-index: 1;
-    /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
     -webkit-transition-property: -webkit-transform;
@@ -847,7 +729,7 @@ Main components
     }
 }
 
-.cd-menu-trigger {
+.anchor-menu {
     display: inline-block;
     position: absolute;
     right: 0;
@@ -862,8 +744,8 @@ Main components
     font-size: 0.875rem;
     border: 2px solid #EDEDED;
 }
-.cd-menu-trigger span {
-    /* hamburger icon */
+.anchor-menu span {
+    /* hamburgesa icono */
     position: relative;
     display: inline-block;
     width: 18px;
@@ -876,7 +758,7 @@ Main components
     -o-transform: translateY(-2px);
     transform: translateY(-2px);
 }
-.cd-menu-trigger span::before, .cd-menu-trigger span::after {
+.anchor-menu span::before, .anchor-menu span::after {
     content: '';
     display: inline-block;
     position: absolute;
@@ -888,20 +770,20 @@ Main components
     -moz-transition: all 0.2s;
     transition: all 0.2s;
 }
-.cd-menu-trigger span::before {
+.anchor-menu span::before {
     top: -6px;
 }
-.cd-menu-trigger span::after {
+.anchor-menu span::after {
     bottom: -6px;
 }
-.no-touch .cd-menu-trigger:hover span::before {
+.no-touch .anchor-menu:hover span::before {
     top: -8px;
 }
-.no-touch .cd-menu-trigger:hover span::after {
+.no-touch .anchor-menu:hover span::after {
     bottom: -8px;
 }
 @media only screen and (min-width: 768px) {
-    .cd-menu-trigger {
+    .anchor-menu {
         top: 16px;
         right: 10px;
         font-size: 16px;
@@ -909,22 +791,20 @@ Main components
     }
 }
 @media only screen and (min-width: 1170px) {
-    .cd-menu-trigger {
+    .anchor-menu {
         right: 60px;
     }
 }
 
-#main-nav {
+#nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: #F9F9F9;
-    /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
-    /* we move this element off the canvas */
     -webkit-transform: translateY(-100%);
     -moz-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
@@ -938,14 +818,14 @@ Main components
     transition-duration: 0.5s;
     z-index: 3;
 }
-#main-nav ul {
+#nav ul {
     height: 100%;
     overflow-y: scroll;
 }
-#main-nav li {
+#nav li {
     height: 20%;
 }
-#main-nav li a {
+#nav li a {
     position: relative;
     display: block;
     padding: 0 10%;
@@ -954,7 +834,7 @@ Main components
     font-size: 2.25rem;
     font-weight: bold;
 }
-#main-nav li a span {
+#nav li a span {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -966,13 +846,13 @@ Main components
     -o-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
-.no-touch #main-nav li a:hover {
+.no-touch #nav li a:hover {
     background-color: #FFF;
 }
-#main-nav li:last-child a {
+#nav li:last-child a {
     border-bottom: none;
 }
-#main-nav .cd-close-menu {
+#nav .cerrar-menu {
     position: absolute;
     top: 0;
     right: 0;
@@ -985,7 +865,7 @@ Main components
     text-indent: 100%;
     white-space: nowrap;
 }
-#main-nav .cd-close-menu::before, #main-nav .cd-close-menu::after {
+#nav .cerrar-menu::before, #nav .cerrar-menu::after {
     content: '';
     display: inline-block;
     position: absolute;
@@ -1001,35 +881,35 @@ Main components
     -moz-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
-#main-nav .cd-close-menu::before {
+#nav .cerrar-menu::before {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-#main-nav .cd-close-menu::after {
+#nav .cerrar-menu::after {
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
     -ms-transform: rotate(135deg);
     -o-transform: rotate(135deg);
     transform: rotate(135deg);
 }
-.no-touch #main-nav .cd-close-menu:hover::before {
+.no-touch #nav .cerrar-menu:hover::before {
     -webkit-transform: rotate(225deg);
     -moz-transform: rotate(225deg);
     -ms-transform: rotate(225deg);
     -o-transform: rotate(225deg);
     transform: rotate(225deg);
 }
-.no-touch #main-nav .cd-close-menu:hover::after {
+.no-touch #nav .cerrar-menu:hover::after {
     -webkit-transform: rotate(315deg);
     -moz-transform: rotate(315deg);
     -ms-transform: rotate(315deg);
     -o-transform: rotate(315deg);
     transform: rotate(315deg);
 }
-#main-nav.is-visible {
+#nav.is-visible {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -1037,7 +917,7 @@ Main components
     -o-transform: translateY(0);
     transform: translateY(0);
 }
-.no-js #main-nav {
+.no-js #nav {
     position: static;
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -1045,7 +925,7 @@ Main components
     -o-transform: translateY(0);
     transform: translateY(0);
 }
-.no-js #main-nav .cd-close-menu {
+.no-js #nav .cerrar-menu {
     display: none;
 }
 
@@ -1069,4 +949,114 @@ Main components
     -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
     transition-delay: 0s;
+}
+
+/*pantallas responsives*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+	.home-content h1 {
+    font-size: 48px;
+	}
+	.home-content p {
+    font-size: 21px;
+	}
+	.portfolio-wrapper2 .portfolio-item.width-img {
+    height: 198px;
+	}
+
+
+}
+
+@media  (max-width: 991px) {
+    html {
+        font-size: 80%;
+    }
+	.about-content h4 {
+    font-size: 14px;
+	}
+
+	.contacto-area {
+    padding: 60px 40px 124px 40px;
+	}
+
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 70%;
+    }
+	.home-content h1 {
+    font-size: 46px;
+	}
+	.home-content p {
+    font-size: 20px;
+	}
+	.about-content a {
+    margin-bottom: 20px;
+	}
+	.experiencia-contenido {
+    margin-bottom: 20px;
+	}
+
+	.contacto-area {
+    margin-bottom: 20px;
+	}
+	.background-skills {
+    margin: 0 auto;
+    margin-bottom: 20px;
+	}
+
+
+}
+
+
+@media (max-width: 480px) {
+    html {
+        font-size: 60%;
+    }
+	.home-content h1 {
+    font-size: 18px;
+	}
+	.home-content p {
+    font-size: 12px;
+	}
+	.contenido-cabecera h3 {
+    font-size: 20px;
+	}
+	.experiencia-contenido h4 {
+    font-size: 18px;
+	}
+   .experiencia-contenido .contenido-detalles h5 {
+    font-size: 15px;
+	}
+	.testimonial-content .testimonial-quote p {
+    font-size: 12px;
+	}
+	.contacto-caja h4 {
+    font-size: 18px;
+	}
+	.cd-header {
+    top: 3%;
+	}
+
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 50%;
+    }
+	.home-content p {
+    font-size: 11px;
+	}
+	.cd-header {
+    top: 3%;
+	}
+	.overlay {
+    min-height: 500px;
+	}
+	.inicio-caja {
+    margin-top: 115px;
+	}
 }
