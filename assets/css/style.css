@@ -604,7 +604,9 @@ textarea::-ms-input-placeholder
     font-weight:600;
     margin-bottom:50px;
 }
-
+.pbottom{
+  padding-bottom: 182px;
+}
 .contacto-detalles{
     background: rgba(55, 38, 57, 0.64);
     padding:60px 40px;
